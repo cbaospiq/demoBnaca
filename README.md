@@ -26,7 +26,7 @@ This application is a Spring Boot app and uses the [Azure web service] to deploy
 
   - Login in your account: **az login** 
   - Establish a connection: **az account set --subscription "*azure-subscription*"**
-  - Deployment in the resource group: **az deployment group create --resource-group "*resource-group-name*" --template-file ".\deploymentTemplates\template-with-preexisting-rg.json" --parameters appId="*appId*" appSecret="*appSecret*" botId="*botId*" newWebAppName="*appService" existingAppServicePlan="*appServicePlan*" appServicePlanLocation="*appServicePlanLocation*" --name "*botName*"**
+  - Deployment in the resource group: **az deployment group create --resource-group "*resource-group-name*" --template-file ".\deploymentTemplates\template-with-preexisting-rg.json" --parameters appId="*appId*" appSecret="*appSecret*" botId="*botId*" newWebAppName="*appService*" existingAppServicePlan="*appServicePlan*" appServicePlanLocation="*appServicePlanLocation*" --name "*botName*"**
 
 Setting the fields by the desired names 
 
