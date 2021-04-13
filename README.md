@@ -16,19 +16,17 @@ This application is a Spring Boot app and uses the [Azure web service] to deploy
 - An account on [Azure](https://azure.microsoft.com) if you want to deploy to Azure.
 - A Team's account
 
+
+
+
 # 3. Azure account configuration
 
-- From the root of this project folder: 
-  - Create a folder with the name deploymentTemplates
-  - Create a json named template-with-preexisting-rg.json with the following scheme: [template-with-preexisting-rg.json] (https:\\...)
-  
-- Following the steps of this [document](https://docs.microsoft.com/en-us/azure/bot-service/bot-builder-deploy-az-cli) open a terminal and type: 
+For the deployment in Azure of the Teams and eva connector and the subsequent creation of the bot it is necessary to have: 
 
-  - Login in your account: **az login** 
-  - Establish a connection: **az account set --subscription "*azure-subscription*"**
-  - Deployment in the resource group: **az deployment group create --resource-group "*resource-group-name*" --template-file ".\deploymentTemplates\template-with-preexisting-rg.json" --parameters appId="*appId*" appSecret="*appSecret*" botId="*botId*" newWebAppName="*appService*" existingAppServicePlan="*appServicePlan*" appServicePlanLocation="*appServicePlanLocation*" --name "*botName*"**
-
-Setting the fields by the desired names 
+ - Resource group
+ - App Service plan
+ - App Service
+ - Bot Channels Registration
 
 # 4. Deployment the code in the azure account
 The steps to follow when deploying the code in the account previously created are described below. A number of modifications need to be made first.
@@ -39,7 +37,7 @@ Modify the pom.xml file:
  - Set resource-group name 
  - Set appName name
  
-With the values chosen.
+with the necessary azure account values
 
 Modify the .properties 
 
