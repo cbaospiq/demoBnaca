@@ -4,7 +4,7 @@ This connector has been created using  [COMPLETAR]
 
 This application is a Spring Boot app and uses the [Azure web service] to deploy to Azure.
 
-- [Documentation](https://docs.google.com/document/d/1M8wZc1t_-Yi0ZYzZW3eozkiFZ31uxEdv/edit?usp=drive_web&ouid=100246362218061619640&rtpof=true)
+- [Documentation](https://drive.google.com/file/d/1M8wZc1t_-Yi0ZYzZW3eozkiFZ31uxEdv/view?usp=sharing)
 
 # 1. Prerequisites
 
@@ -77,9 +77,9 @@ In the document referenced ##1 you will find the explanation of how to deploy th
 
 # 5. Create Microsoft Teams Aplication
 
- - It is necessary to create a manifest by changing the necessary data [here](https://drive.google.com/drive/u/0/my-drive)
+ - It is necessary to create a manifest by changing the necessary data [here](https://drive.google.com/file/d/11wneNSdHSNcAQ7NB7MDPoeQpa3i7UL40/view?usp=sharing)
  
- - Make a .zip with the manifest and the images for the icons to the app. Example [manifiest.zip](https://drive.google.com/drive/u/0/my-drive)
+ - Make a .zip with the manifest and the images for the icons to the app. Example [manifiest.zip](https://drive.google.com/file/d/1FOwlkhCawFNjA7r8DMzf-zhYSuvPuTQR/view?usp=sharing)
  
  - Upload the manifest on Teams. 
 
