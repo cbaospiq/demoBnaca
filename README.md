@@ -78,9 +78,10 @@ In the document referenced ##1 you will find the explanation of how to deploy th
 # 5. Create Microsoft Teams Aplication
 
  - It is necessary to create a manifest by changing the necessary data [here](https://drive.google.com/drive/u/0/my-drive)
- - Make a .zip with the manifest and the images for the icons to the app.
  
- - Upload the manifest on Teams.
+ - Make a .zip with the manifest and the images for the icons to the app. Example [manifiest.zip](https://drive.google.com/drive/u/0/my-drive)
+ 
+ - Upload the manifest on Teams. 
 
 *Note:
 
