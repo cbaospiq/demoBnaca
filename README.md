@@ -24,9 +24,9 @@ This application is a Spring Boot app and uses the [Azure web service] to deploy
   
 - Following the steps of this document: (https://docs.microsoft.com/en-us/azure/bot-service/bot-builder-deploy-az-cli) open a terminal and type: 
 
-  - Login in your account: az login 
-  - Establish a connection: az account set --subscription "<azure-subscription>" 
-  - Deployment in the resource group: az group deployment create --name "MsBotEvaDeploy" --resource-group "<groupname>" --template-file ".\deploymentTemplates\template-with-preexisting-rg.json" --parameters botId="<botname>" appId="<appid>" appSecret="<appsecret>" 
+  - **Login in your account:** az login 
+  - **Establish a connection:** az account set --subscription "<azure-subscription>" 
+  - **Deployment in the resource group:** az group deployment create --name "MsBotEvaDeploy" --resource-group "<groupname>" --template-file ".\deploymentTemplates\template-with-preexisting-rg.json" --parameters botId="<botname>" appId="<appid>" appSecret="<appsecret>" 
 
 Setting the fields < > by the desired names 
 
