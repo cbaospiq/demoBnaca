@@ -4,11 +4,9 @@ This connector has been created using  [COMPLETAR]
 
 This application is a Spring Boot app and uses the [Azure web service] to deploy to Azure.
 
-# 1. Deployment
-
 - [Documentation](https://docs.google.com/document/d/1M8wZc1t_-Yi0ZYzZW3eozkiFZ31uxEdv/edit?usp=drive_web&ouid=100246362218061619640&rtpof=true)
 
-# 2. Prerequisites
+# 1. Prerequisites
 
 - Java 1.8+
 - Install [Maven](https://maven.apache.org/)
@@ -16,8 +14,27 @@ This application is a Spring Boot app and uses the [Azure web service] to deploy
 - An account on [Azure](https://azure.microsoft.com) if you want to deploy to Azure.
 - A Team's account
 
+# 2. General characteristics
 
+In order to create a bot in Teams, it is necessary to create a *web* channel in eVA. In this way, the responses can be represented in Teams via this connector. 
 
+The types of responses that this connector processes are: 
+ - Text
+ - Image
+ - Carousel
+
+As well as **buttons** and **quickReply**. 
+
+In addition, this part has the option of having **custom responses**. You only need to include the json of the type of response you want to represent in the cockpit response. 
+
+# 3. EVA connection
+
+After the creation a bot in EVA with a web channel, we have to modify the values concerning the bot in the aplication.properties file:
+
+ - **channel.id.map** and set msteams value.
+ - **eva.server.broker** url broker
+ - **broker.bot.name** bot name 
+ - **broker.bot.locale** language bot 
 
 # 3. Azure account configuration
 
@@ -29,6 +46,7 @@ For the deployment in Azure of the Teams and eva connector and the subsequent cr
  - Bot Channels Registration
 
 # 4. Deployment the code in the azure account
+
 The steps to follow when deploying the code in the account previously created are described below. A number of modifications need to be made first.
 ## 4.1 Before the deployment
 
@@ -59,10 +77,14 @@ In the document referenced ##1 you will find the explanation of how to deploy th
 
 # 5. Create Microsoft Teams Aplication
 
- - It is necessary to create a manifest by changing the data for the example that you will find in the following link [Manifiest-Example] (https:\\)
+ - It is necessary to create a manifest by changing the necessary data [here](https://drive.google.com/drive/u/0/my-drive)
  - Make a .zip with the manifest and the images for the icons to the app.
  
- - Upload the manifest on Teams. 
+ - Upload the manifest on Teams.
+
+*Note:
+
+For more information about how must being values at the [manifiest](https://docs.microsoft.com/es-es/microsoftteams/platform/resources/schema/manifest-schema)
  
  
 
