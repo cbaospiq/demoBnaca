@@ -22,7 +22,7 @@ This application is a Spring Boot app and uses the [Azure web service] to deploy
   - Create a folder with the name deploymentTemplates
   - Create a json named template-with-preexisting-rg.json with the following scheme: [template-with-preexisting-rg.json] (https:\\...)
   
-- Following the steps of this document: (https://docs.microsoft.com/en-us/azure/bot-service/bot-builder-deploy-az-cli) open a terminal and type: 
+- Following the steps of this [document] (https://docs.microsoft.com/en-us/azure/bot-service/bot-builder-deploy-az-cli) open a terminal and type: 
 
   - **Login in your account:** az login 
   - **Establish a connection:** az account set --subscription "<azure-subscription>" 
