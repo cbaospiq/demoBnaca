@@ -4,7 +4,7 @@ This connector allows a bot created in eva to use Teams as a channel.
 
 This application is a Spring Boot app and uses the [Azure web service](https://azure.microsoft.com)  to deploy to Azure.
 
-- [Documentation](https://drive.google.com/file/d/1M8wZc1t_-Yi0ZYzZW3eozkiFZ31uxEdv/view?usp=sharing)
+You can find a [document](https://drive.google.com/file/d/1M8wZc1t_-Yi0ZYzZW3eozkiFZ31uxEdv/view?usp=sharing) where you can find more information on how to deploy the connector and create the application in Teams.
 
 # 1. Prerequisites
 
@@ -68,8 +68,8 @@ It will be necessary to use maven:
 
 From the root of this project folder execute the folowing comands: 
 
- - mvn clean package
- - mvn azure-webapp:deploy
+ - **mvn clean package**
+ - **mvn azure-webapp:deploy**
 	
 *Note:
 
