@@ -1,8 +1,8 @@
 # Teams eva
 
-This connector has been created using  [COMPLETAR]
+This connector allows a bot created in eva to use Teams as a channel. 
 
-This application is a Spring Boot app and uses the [Azure web service] to deploy to Azure.
+This application is a Spring Boot app and uses the [Azure web service](https://azure.microsoft.com)  to deploy to Azure.
 
 - [Documentation](https://drive.google.com/file/d/1M8wZc1t_-Yi0ZYzZW3eozkiFZ31uxEdv/view?usp=sharing)
 
