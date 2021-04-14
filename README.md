@@ -1,10 +1,10 @@
 # Teams eva
 
-This connector allows a bot created in eva to use Teams as a channel. 
+This connector allows a bot created in eVA to use Teams as a channel. 
 
-This application is a Spring Boot app and uses the [Azure web service](https://azure.microsoft.com)  to deploy to Azure.
+This is a Spring Boot app and uses the [Azure web service](https://azure.microsoft.com)  to deploy to Azure.
 
-You can find a [document](https://drive.google.com/file/d/1M8wZc1t_-Yi0ZYzZW3eozkiFZ31uxEdv/view?usp=sharing) where you can find more information on how to deploy the connector and create the application in Teams.
+ More information on how to deploy the connector and create the application in Teams can be found in this [document].(https://drive.google.com/file/d/1M8wZc1t_-Yi0ZYzZW3eozkiFZ31uxEdv/view?usp=sharing).
 
 # 1. Prerequisites
 
@@ -16,20 +16,21 @@ You can find a [document](https://drive.google.com/file/d/1M8wZc1t_-Yi0ZYzZW3eoz
 
 # 2. General characteristics
 
-In order to create a bot in Teams, it is necessary to create a *web* channel in eVA. In this way, the responses can be represented in Teams via this connector. 
+In order to create a bot in Teams, it is necessary to create a **web** channel in eVA. In this way, the responses can be represented in Teams via this connector. 
 
-The types of responses that this connector processes are: 
+The types of processes responses are: 
+
  - Text
  - Image
  - Carousel
 
-As well as **buttons** and **quickReply**. 
+These responses can contain **buttons** and **quickReplies**.
 
-In addition, this part has the option of having **custom responses**. You only need to include the json of the type of response you want to represent in the cockpit response. 
+In addition, **custom responses** can be processed by including the json structure of the response in the cockpit.
 
 # 3. EVA connection
 
-After the creation a bot in EVA with a web channel, we have to modify the values concerning the bot in the aplication.properties file:
+After the creation a bot in eVA with a web channel, we have to modify the values concerning the bot in the aplication.properties file:
 
  - **channel.id.map** and set msteams value.
  - **eva.server.broker** url broker
@@ -48,6 +49,7 @@ For the deployment in Azure of the Teams and eva connector and the subsequent cr
 # 4. Deployment the code in the azure account
 
 The steps to follow when deploying the code in the account previously created are described below. A number of modifications need to be made first.
+
 ## 4.1 Before the deployment
 
 Modify the pom.xml file:
@@ -55,16 +57,16 @@ Modify the pom.xml file:
  - Set resource-group name 
  - Set appName name
  
-with the necessary azure account values
+with the necessary azure account values.
 
-Modify the .properties 
+Modify the application.properties:
 
  - Set MicrosoftAppId 
  - Set MicrosoftPassword
 	
 ## 4.2 Deployment the code in Azure
 
-It will be necessary to use maven:
+It will be necessary to use maven.
 
 From the root of this project folder execute the folowing comands: 
 
@@ -73,7 +75,7 @@ From the root of this project folder execute the folowing comands:
 	
 *Note:
 
-In the document referenced ##1 you will find the explanation of how to deploy the code without using Maven.
+Others methods without using maven can be found in this [document](https://drive.google.com/file/d/1M8wZc1t_-Yi0ZYzZW3eozkiFZ31uxEdv/view?usp=sharing).
 
 # 5. Create Microsoft Teams Aplication
 
@@ -85,8 +87,4 @@ In the document referenced ##1 you will find the explanation of how to deploy th
 
 *Note:
 
-For more information about how must being values at the [manifiest](https://docs.microsoft.com/es-es/microsoftteams/platform/resources/schema/manifest-schema)
- 
- 
-
-
+For more information about how must being values at the [manifiest](https://docs.microsoft.com/es-es/microsoftteams/platform/resources/schema/manifest-schema).
