@@ -74,17 +74,15 @@ From the root of this project folder execute the folowing comands:
  - **mvn azure-webapp:deploy**
 	
 *Note:
-
 Others methods without using maven can be found in this [document](https://drive.google.com/file/d/1M8wZc1t_-Yi0ZYzZW3eozkiFZ31uxEdv/view?usp=sharing).
 
 # 5. Create Microsoft Teams Aplication
 
- - It is necessary to create a manifest by changing the necessary data [here](https://drive.google.com/file/d/11wneNSdHSNcAQ7NB7MDPoeQpa3i7UL40/view?usp=sharing)
+ - It is necessary to create a manifest by changing the necessary data. Here you can find and [expample](https://drive.google.com/file/d/11wneNSdHSNcAQ7NB7MDPoeQpa3i7UL40/view?usp=sharing)
  
  - Make a .zip with the manifest and the images for the icons to the app. Example [manifiest.zip](https://drive.google.com/file/d/1FOwlkhCawFNjA7r8DMzf-zhYSuvPuTQR/view?usp=sharing)
  
  - Upload the manifest on Teams. 
 
 *Note:
-
-For more information about how must being values at the [manifiest](https://docs.microsoft.com/es-es/microsoftteams/platform/resources/schema/manifest-schema).
+For more information about the [manifiest](https://docs.microsoft.com/es-es/microsoftteams/platform/resources/schema/manifest-schema).
