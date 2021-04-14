@@ -4,7 +4,7 @@ This connector allows a bot created in eVA to use Teams as a channel.
 
 This is a Spring Boot app and uses the [Azure web service](https://azure.microsoft.com)  to deploy to Azure.
 
- More information on how to deploy the connector and create the application in Teams can be found in this [document].(https://drive.google.com/file/d/1M8wZc1t_-Yi0ZYzZW3eozkiFZ31uxEdv/view?usp=sharing).
+ More information on how to deploy the connector and create the application in Teams can be found in this [document](https://drive.google.com/file/d/1M8wZc1t_-Yi0ZYzZW3eozkiFZ31uxEdv/view?usp=sharing).
 
 # 1. Prerequisites
 
